@@ -2,13 +2,13 @@
 
 ### Experimental results
 
-To be added.
+x18 for res50 with 1.5% top-5 acc loss(imagenet)   
+x69 for res18 with 0.6% top-1 acc loss(cifar10)
 
 ### Quick start example
 - start command
 ```
-python main.py --arch=vgg16 --pretrained --finetune_lr=1e-3 --lr_decay=30 --prune --conf=conf/vgg.conf
-python main.py --arch=alexnet --pretrained --finetune_lr=1e-3 --lr_decay=30 --prune --conf=conf/admm.conf
+python main_xx.py --arch=xx --pretrained --finetune_lr=1e-3 - --prune --conf=conf/vgg.conf
 ```
 - conf is used to define the layers to be pruned, expected sparsity and other hyper-parameters for pruning.
 
